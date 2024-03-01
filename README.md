@@ -36,21 +36,22 @@ Quiero agradecer a gh0stzk por compartir su configuración de ncmpcpp y mpd, que
 Puedes elegir entre los siguientes temas ejecutando cualquiera de las siguientes líneas de comando:
 
 - Dracula:
-
+  ```bash
   wal --set Dracula
-
+  ```
 - Nord:
-
+  ```bash
   wal --set Nord
-
+  ```
 - NordRed:
-
+  ```bash
   wal --set NordRed
-
+  ```
 - Rose Pine:
-
+  ```bash
   wal --set Rose-Pine
-
+  ```
+  
 ## Generación de Colores para GTK e Iconos con Oomox
 
 Se puede generar colores para GTK e iconos con Oomox utilizando el siguiente script:
