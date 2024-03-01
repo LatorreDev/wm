@@ -2,9 +2,13 @@
 Este repositorio contiene mi configuración personalizada para el gestor de ventanas BSPWM, junto con Pywal para la generación automática de esquemas de colores basados en fondos de pantalla y plantillas json (viene con las plantillas de los colores de Dracula, Rose Pine y Nord que se encuentran en ~/.config/wal/colorschemes/dark/). puedes escojer cualqueira de esos temas executando cualqueira de las siguientes lineas:
 
 wal --set Nord
+
 wal --set NordRed
+
 wal --set Rose-Pine
+
 wal --set Dracula
+
 
 Se puede generar colores para GTK y iconos con oomox con el pequeño script ubicado en ~/.config/bspwm/colorsGTK-Icons.sh q usa una plantilla de oomox q se ubica en .cache/wal/.cache/wal/oomox_lcars
 No sabia donde poner el script xd
