@@ -1,4 +1,3 @@
-Scripts-for-debian: Ejecutables de configuracion desfasados
 bspwmrc: la configuracion minima de bspwm y que llama a los programas de iniciacion (startPrograms.sh)
 colors.sh: colores de bspwm (solo son 4 lineas)
 colorsGTK-Icons.sh: Iconos y colores GTK generados con oomox (no llamado x ningun archivo, ejecutalo si quieres generar un tema con los colores que tienes en pywal actualmente)
