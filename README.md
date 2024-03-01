@@ -68,7 +68,8 @@ Puedes elegir entre los siguientes temas ejecutando cualquiera de las siguientes
   ```
   
 ## Generación de Colores para GTK e Iconos con Oomox
-###### Nota: Si deseas usar Oomox para generar colores para GTK e iconos, asegúrate de descomentar las líneas 66, 67 y 68 en el archivo: `[install-bspwm.sh](https://github.com/Mike-18awq/dotfiles/blob/main/install-bspwm.sh)` antes de ejecutar el script O también puedes ejecutarlas en ese orden por separado en una terminal. Estas líneas corresponden a la instalación de Oomox. Si no las descomentas, Oomox no se instalará y el script de instalación omitirá este paso.
+###### Nota:
+Si deseas usar Oomox para generar colores para GTK e iconos, asegúrate de descomentar las líneas 66, 67 y 68 en el archivo [install-bspwm.sh](https://github.com/Mike-18awq/dotfiles/blob/main/install-bspwm.sh) antes de ejecutar el script O también puedes ejecutarlas en ese orden por separado en una terminal. Estas líneas corresponden a la instalación de Oomox. Si no las descomentas, Oomox no se instalará y el script de instalación omitirá este paso.
     
 - Puedes generar tus colores para GTK e iconos a partir de tus propias plantillas de pywal con Oomox utilizando el siguiente script:
   ```bash
