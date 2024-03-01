@@ -34,10 +34,25 @@ Quiero agradecer a gh0stzk por compartir su configuración de ncmpcpp y mpd, que
 ## Temas Disponibles
 
 Puedes elegir entre los siguientes temas ejecutando cualquiera de las siguientes líneas de comando:
-
+- Catppuccin:
+  ```bash
+  wal --set Catppuccin
+  ```
 - Dracula:
   ```bash
   wal --set Dracula
+  ```
+- Everforest:
+  ```bash
+  wal --set Everforest
+  ```
+- Gruvbox:
+  ```bash
+  wal --set Gruvbox
+  ```
+- Monokai:
+  ```bash
+  wal --set Monokai
   ```
 - Nord:
   ```bash
