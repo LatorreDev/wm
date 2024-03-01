@@ -22,9 +22,10 @@ tar -xf themes.tar.gz
 mv -f .themes/* ~/.themes/
 
 # Set Wallpapers
-tar -xf Wallpapers.tar.gz && cp -r Wallpapers/ "$(xdg-user-dir PICTURES)"
+#tar -xf Wallpapers.tar.gz && cp -r Wallpapers/ "$(xdg-user-dir PICTURES)"
 mkdir -p "$(xdg-user-dir PICTURES)"/Wallpapers
-mv -f Wallpapers/* "$(xdg-user-dir PICTURES)"/Wallpapers/
+#mv -f Wallpapers/* "$(xdg-user-dir PICTURES)"/Wallpapers/
+cp -r Wallpapers/* "$(xdg-user-dir PICTURES)"/Wallpapers/
 
 # Scripts for change theme
 cp -r GTK-configs/* ~/.GTK-configs/
