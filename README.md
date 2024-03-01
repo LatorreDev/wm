@@ -76,7 +76,7 @@ Puedes elegir entre los siguientes temas ejecutando cualquiera de las siguientes
   ```
 Este script usa una plantilla de Oomox ubicada en .cache/wal/oomox_lcars.
 
-## Shortcuts
+## Keybindings
 <table>
   <tr>
     <th>Teclas</th>
