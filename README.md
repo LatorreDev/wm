@@ -1,74 +1,3 @@
-<table>
-  <tr>
-    <th>Teclas</th>
-    <th>Acción</th>
-  </tr>
-  <tr>
-    <td><kbd>super</kbd> + <kbd>Return</kbd></td>
-    <td>Abre Alacritty.</td>
-  </tr>
-  <tr>
-    <td><kbd>super</kbd> + <kbd>d</kbd></td>
-    <td>Abre Rofi para lanzar programas. Utiliza el tema "Qogir-dark" con la fuente "Hurmit Nerd Font Regular 8" y muestra iconos.</td>
-  </tr>
-  <tr>
-    <td><kbd>super</kbd> + <kbd>ctrl</kbd> + <kbd>d</kbd></td>
-    <td>Muestra las ventanas abiertas en Rofi. Utiliza el tema "Qogir-dark" con la fuente "Hurmit Nerd Font Regular 8" y muestra iconos.</td>
-  </tr>
-  <tr>
-    <td><kbd>super</kbd> + <kbd>shift</kbd> + <kbd>d</kbd></td>
-    <td>Muestra las sesiones SSH disponibles en Rofi. Utiliza el tema "Qogir-dark" con la fuente "Hurmit Nerd Font Regular 8" y muestra iconos.</td>
-  </tr>
-  <tr>
-    <td><kbd>super</kbd> + <kbd>shift</kbd> + <kbd>e</kbd></td>
-    <td>Ejecuta el script <code>powermenu.sh</code> ubicado en <code>~/.config/rofi/</code>.</td>
-  </tr>
-  <tr>
-    <td><kbd>super</kbd> + <kbd>Escape</kbd></td>
-    <td>Recarga la configuración de SXHKD.</td>
-  </tr>
-  <tr>
-    <td><kbd>super</kbd> + <kbd>alt</kbd> + <kbd>q</kbd></td>
-    <td>Cierra BSPWM.</td>
-  </tr>
-  <tr>
-    <td><kbd>super</kbd> + <kbd>alt</kbd> + <kbd>r</kbd></td>
-    <td>Reinicia BSPWM.</td>
-  </tr>
-  <tr>
-    <td><kbd>super</kbd> + <kbd>q</kbd></td>
-    <td>Cierra la ventana actual.</td>
-  </tr>
-  <tr>
-    <td><kbd>super</kbd> + <kbd>shift</kbd> + <kbd>q</kbd></td>
-    <td>Mata la ventana actual.</td>
-  </tr>
-  <tr>
-    <td><kbd>super</kbd> + <kbd>m</kbd></td>
-    <td>Alterna entre el diseño de mosaico y monocle.</td>
-  </tr>
-  <tr>
-    <td><kbd>XF86MonBrightnessUp</kbd></td>
-    <td>Aumenta el brillo en 5%.</td>
-  </tr>
-  <tr>
-    <td><kbd>XF86MonBrightnessDown</kbd></td>
-    <td>Disminuye el brillo en 5%.</td>
-  </tr>
-  <tr>
-    <td><kbd>super</kbd> + <kbd>w</kbd></td>
-    <td>Abre el navegador - Firefox.</td>
-  </tr>
-  <tr>
-    <td><kbd>super</kbd> + <kbd>n</kbd></td>
-    <td>Abre el Gestor de Archivos - Nemo.</td>
-  </tr>
-  <tr>
-    <td><kbd>super</kbd> + <kbd>a</kbd></td>
-    <td>Abre Flameshot para capturar capturas de pantalla.</td>
-  </tr>
-</table>
-
 # BSPWM-Pywal
 
 Este repositorio contiene mi configuración personalizada para el gestor de ventanas BSPWM, junto con Pywal para la generación automática de esquemas de colores basados en fondos de pantalla. Incluye plantillas para los temas de Dracula, Rose Pine y Nord, que se pueden aplicar fácilmente con Pywal.
@@ -147,56 +76,77 @@ Puedes elegir entre los siguientes temas ejecutando cualquiera de las siguientes
   ```
 Este script usa una plantilla de Oomox ubicada en .cache/wal/oomox_lcars.
 
-## Atajos de teclado
+<table>
+  <tr>
+    <th>Teclas</th>
+    <th>Acción</th>
+  </tr>
+  <tr>
+    <td><kbd>super</kbd> + <kbd>Return</kbd></td>
+    <td>Abre Alacritty.</td>
+  </tr>
+  <tr>
+    <td><kbd>super</kbd> + <kbd>d</kbd></td>
+    <td>Abre Rofi para lanzar programas. Utiliza el tema "Qogir-dark" con la fuente "Hurmit Nerd Font Regular 8" y muestra iconos.</td>
+  </tr>
+  <tr>
+    <td><kbd>super</kbd> + <kbd>ctrl</kbd> + <kbd>d</kbd></td>
+    <td>Muestra las ventanas abiertas en Rofi. Utiliza el tema "Qogir-dark" con la fuente "Hurmit Nerd Font Regular 8" y muestra iconos.</td>
+  </tr>
+  <tr>
+    <td><kbd>super</kbd> + <kbd>shift</kbd> + <kbd>d</kbd></td>
+    <td>Muestra las sesiones SSH disponibles en Rofi. Utiliza el tema "Qogir-dark" con la fuente "Hurmit Nerd Font Regular 8" y muestra iconos.</td>
+  </tr>
+  <tr>
+    <td><kbd>super</kbd> + <kbd>shift</kbd> + <kbd>e</kbd></td>
+    <td>Ejecuta el script <code>powermenu.sh</code> ubicado en <code>~/.config/rofi/</code>.</td>
+  </tr>
+  <tr>
+    <td><kbd>super</kbd> + <kbd>Escape</kbd></td>
+    <td>Recarga la configuración de SXHKD.</td>
+  </tr>
+  <tr>
+    <td><kbd>super</kbd> + <kbd>alt</kbd> + <kbd>q</kbd></td>
+    <td>Cierra BSPWM.</td>
+  </tr>
+  <tr>
+    <td><kbd>super</kbd> + <kbd>alt</kbd> + <kbd>r</kbd></td>
+    <td>Reinicia BSPWM.</td>
+  </tr>
+  <tr>
+    <td><kbd>super</kbd> + <kbd>q</kbd></td>
+    <td>Cierra la ventana actual.</td>
+  </tr>
+  <tr>
+    <td><kbd>super</kbd> + <kbd>shift</kbd> + <kbd>q</kbd></td>
+    <td>Mata la ventana actual.</td>
+  </tr>
+  <tr>
+    <td><kbd>super</kbd> + <kbd>m</kbd></td>
+    <td>Alterna entre el diseño de mosaico y monocle.</td>
+  </tr>
+  <tr>
+    <td><kbd>XF86MonBrightnessUp</kbd></td>
+    <td>Aumenta el brillo en 5%.</td>
+  </tr>
+  <tr>
+    <td><kbd>XF86MonBrightnessDown</kbd></td>
+    <td>Disminuye el brillo en 5%.</td>
+  </tr>
+  <tr>
+    <td><kbd>super</kbd> + <kbd>w</kbd></td>
+    <td>Abre el navegador - Firefox.</td>
+  </tr>
+  <tr>
+    <td><kbd>super</kbd> + <kbd>n</kbd></td>
+    <td>Abre el Gestor de Archivos - Nemo.</td>
+  </tr>
+  <tr>
+    <td><kbd>super</kbd> + <kbd>a</kbd></td>
+    <td>Abre Flameshot para capturar capturas de pantalla.</td>
+  </tr>
+</table>
 
-### Terminal Emulator
-
-- **super + Return**: Abre Alacritty.
-
-### Lanzador de programas
-
-- **super + d**: Abre Rofi para lanzar programas. Utiliza el tema "Qogir-dark" con la fuente "Hurmit Nerd Font Regular 8" y muestra iconos.
-
-### Mostrar ventana abierta
-
-- **super + ctrl + d**: Muestra las ventanas abiertas en Rofi. Utiliza el tema "Qogir-dark" con la fuente "Hurmit Nerd Font Regular 8" y muestra iconos.
-
-### Mostrar sesiones SSH
-
-- **super + shift + d**: Muestra las sesiones SSH disponibles en Rofi. Utiliza el tema "Qogir-dark" con la fuente "Hurmit Nerd Font Regular 8" y muestra iconos.
-
-### Menú de energía
-
-- **super + shift + e**: Ejecuta el script `powermenu.sh` ubicado en `~/.config/rofi/`.
-
-### Recargar configuración de SXHKD
-
-- **super + Escape**: Recarga la configuración de SXHKD.
-
-### Salir/reiniciar BSPWM
-
-- **super + alt + q**: Cierra BSPWM.
-- **super + alt + r**: Reinicia BSPWM.
-
-### Cerrar y matar
-
-- **super + q**: Cierra la ventana actual.
-- **super + shift + q**: Mata la ventana actual.
-
-### Alternar entre diseños
-
-- **super + m**: Alterna entre el diseño de mosaico y monocle.
-
-### Ajustar brillo
-
-- **XF86MonBrightnessUp**: Aumenta el brillo en 5%.
-- **XF86MonBrightnessDown**: Disminuye el brillo en 5%.
-
-### Atajos personalizados
-
-- **super + w**: Abre el navegador - Firefox.
-- **super + n**: Abre el Gestor de Archivos - Nemo.
-- **super + a**: Abre Flameshot para capturar capturas de pantalla.
 
 ### Dracula
 ![](https://github.com/Mike-18awq/bspwm-pywal/blob/main/Dracula1.png)
