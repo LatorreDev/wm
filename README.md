@@ -1,42 +1,63 @@
-# bspwm-pywal
-Este repositorio contiene mi configuración personalizada para el gestor de ventanas BSPWM, junto con Pywal para la generación automática de esquemas de colores basados en fondos de pantalla y plantillas json (viene con las plantillas de los colores de Dracula, Rose Pine y Nord que se encuentran en ~/.config/wal/colorschemes/dark/). puedes escojer cualqueira de esos temas executando cualqueira de las siguientes lineas:
+# BSPWM-Pywal
 
-wal --set Nord
+Este repositorio contiene mi configuración personalizada para el gestor de ventanas BSPWM, junto con Pywal para la generación automática de esquemas de colores basados en fondos de pantalla. Incluye plantillas para los temas de Dracula, Rose Pine y Nord, que se pueden aplicar fácilmente con Pywal.
 
-wal --set NordRed
+## Instalación
 
-wal --set Rose-Pine
+Para instalar y configurar BSPWM junto con Pywal, sigue estos pasos:
 
-wal --set Dracula
+1. Clona este repositorio en tu directorio home:
 
+    ```bash
+    cd ~/ && git clone https://github.com/Mike-18awq/bspwm-pywal && cd ~/bspwm-pywal
+    ```
 
-Se puede generar colores para GTK y iconos con oomox con el pequeño script ubicado en ~/.config/bspwm/colorsGTK-Icons.sh q usa una plantilla de oomox q se ubica en .cache/wal/.cache/wal/oomox_lcars
-No sabia donde poner el script xd
+2. Otorga permisos de ejecución al script de instalación:
 
-### Instalacion
-cd ~/ && git clone https://github.com/Mike-18awq/bspwm-pywal && cd ~/bspwm-pywal && chmod +x install-bspwm.sh && ./install-bspwm.sh
+    ```bash
+    chmod +x install-bspwm.sh
+    ```
 
+3. Ejecuta el script de instalación:
 
-# agradecimientos a gh0stzk que me "robe" sus configs de ncmpcpp y mpd; perdon esq no se usar github XD y no se como dar creditos x aca apropiadamente
-https://github.com/gh0stzk/dotfiles/tree/master/config/mpd
-https://github.com/gh0stzk/dotfiles/tree/master/config/ncmpcpp
+    ```bash
+    ./install-bspwm.sh
+    ```
 
-# Dracula
-![](https://github.com/Mike-18awq/bspwm-pywal/blob/main/Dracula1.png)
-![](https://github.com/Mike-18awq/bspwm-pywal/blob/main/Dracula2.png)
-![](https://github.com/Mike-18awq/bspwm-pywal/blob/main/Dracula3.png)
+## Agradecimientos
 
-# Nord
-![](https://github.com/Mike-18awq/bspwm-pywal/blob/main/Nord1.png)
-![](https://github.com/Mike-18awq/bspwm-pywal/blob/main/Nord2.png)
-![](https://github.com/Mike-18awq/bspwm-pywal/blob/main/Nord3.png)
+Quiero agradecer a gh0stzk por compartir su configuración de ncmpcpp y mpd, que adapté para mi propio uso. Puedes encontrar su trabajo original en los siguientes enlaces:
 
-# NordRed
-![](https://github.com/Mike-18awq/bspwm-pywal/blob/main/NordRed1.png)
-![](https://github.com/Mike-18awq/bspwm-pywal/blob/main/NordRed2.png)
-![](https://github.com/Mike-18awq/bspwm-pywal/blob/main/NordRed3.png)
+- [Configuración de MPD](https://github.com/gh0stzk/dotfiles/tree/master/config/mpd)
+- [Configuración de Ncmpcpp](https://github.com/gh0stzk/dotfiles/tree/master/config/ncmpcpp)
 
-# Rose Pine
-![](https://github.com/Mike-18awq/bspwm-pywal/blob/main/RosePine1.png)
-![](https://github.com/Mike-18awq/bspwm-pywal/blob/main/RosePine2.png)
-![](https://github.com/Mike-18awq/bspwm-pywal/blob/main/RosePine3.png)
+## Temas Disponibles
+
+Puedes elegir entre los siguientes temas ejecutando cualquiera de las siguientes líneas de comando:
+
+- Dracula:
+
+  wal --set Dracula
+
+- Nord:
+
+  wal --set Nord
+
+- NordRed:
+
+  wal --set NordRed
+
+- Rose Pine:
+
+  wal --set Rose-Pine
+
+Generación de Colores para GTK e Iconos con Oomox
+
+Se puede generar colores para GTK e iconos con Oomox utilizando el siguiente script:
+
+bash
+
+~/.config/bspwm/colorsGTK-Icons.sh
+
+Este script usa una plantilla de Oomox ubicada en .cache/wal/oomox_lcars.
+Capturas de Pantalla
