@@ -1,0 +1,3 @@
+bpytopPywal.theme es un acceso directo a .cache/wal/bpytopPywal.theme pero tbm sirve para selecionarlo como tema en bpytop
+
+ln -s ~/.cache/wal/bpytopPywal.theme ~/.config/bpytop/themes/bpytopPywal.theme

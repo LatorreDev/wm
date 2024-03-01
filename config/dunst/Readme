@@ -1,0 +1,3 @@
+dunstrc es un acceso directo a .cache/wal/dunstrc pero tbm sirve para selecionarlo como tema en dunstrc
+
+ ln -s ~/.cache/wal/dunstrc ~/.config/dunst/dunstrc

@@ -1,0 +1,1 @@
+alacritty.toml: Solo se importa la configuracion que se genera a traves de pywal; si quieres cambiar algo como la fuente, etc tienes q editar en .config/wal/templates/alacritty.toml

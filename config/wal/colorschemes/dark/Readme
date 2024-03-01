@@ -1,0 +1,5 @@
+Plantillas de pywal para pywal puedes usar cualquiera de ellas poniendo en la temrminal cualquiera de las siguientes lineas:
+wal --theme Dracula
+wal --theme Rose-Pine
+wal --theme Nord
+wal --theme NordRed
