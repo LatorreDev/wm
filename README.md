@@ -35,37 +35,53 @@ Quiero agradecer a gh0stzk por compartir su configuración de ncmpcpp y mpd las 
 
 Puedes elegir entre los siguientes temas ejecutando cualquiera de las siguientes líneas de comando:
 - Catppuccin:
+
   ```bash
   wal --set Catppuccin
   ```
+
 - Dracula:
+
   ```bash
   wal --set Dracula
   ```
+
 - Everforest:
+
   ```bash
   wal --set Everforest
   ```
+
 - Gruvbox:
+
   ```bash
   wal --set Gruvbox
   ```
+
 - Monokai:
+
   ```bash
   wal --set Monokai
   ```
+
 - Nord:
+
   ```bash
   wal --set Nord
   ```
+
 - NordRed:
+
   ```bash
   wal --set NordRed
   ```
+
 - Rose Pine:
+
   ```bash
   wal --set Rose-Pine
   ```
+
   
 ## Generación de Colores para GTK e Iconos con Oomox
 ##### Nota:
