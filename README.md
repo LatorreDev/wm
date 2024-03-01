@@ -83,67 +83,63 @@ Este script usa una plantilla de Oomox ubicada en .cache/wal/oomox_lcars.
   </tr>
   <tr>
     <td><kbd>super</kbd> + <kbd>Return</kbd></td>
-    <td>Abre Alacritty.</td>
+    <td>Alacritty</td>
   </tr>
   <tr>
     <td><kbd>super</kbd> + <kbd>d</kbd></td>
-    <td>Abre Rofi para lanzar programas. Utiliza el tema "Qogir-dark" con la fuente "Hurmit Nerd Font Regular 8" y muestra iconos.</td>
+    <td>Abre Rofi para lanzar programas</td>
   </tr>
   <tr>
     <td><kbd>super</kbd> + <kbd>ctrl</kbd> + <kbd>d</kbd></td>
-    <td>Muestra las ventanas abiertas en Rofi. Utiliza el tema "Qogir-dark" con la fuente "Hurmit Nerd Font Regular 8" y muestra iconos.</td>
+    <td>Muestra las ventanas abiertas en Rofi</td>
   </tr>
   <tr>
     <td><kbd>super</kbd> + <kbd>shift</kbd> + <kbd>d</kbd></td>
-    <td>Muestra las sesiones SSH disponibles en Rofi. Utiliza el tema "Qogir-dark" con la fuente "Hurmit Nerd Font Regular 8" y muestra iconos.</td>
-  </tr>
-  <tr>
-    <td><kbd>super</kbd> + <kbd>shift</kbd> + <kbd>e</kbd></td>
-    <td>Ejecuta el script <code>powermenu.sh</code> ubicado en <code>~/.config/rofi/</code>.</td>
+    <td>Muestra las sesiones SSH disponibles en Rofi</td>
   </tr>
   <tr>
     <td><kbd>super</kbd> + <kbd>Escape</kbd></td>
-    <td>Recarga la configuración de SXHKD.</td>
+    <td>Recarga la configuración de SXHKD</td>
   </tr>
   <tr>
     <td><kbd>super</kbd> + <kbd>alt</kbd> + <kbd>q</kbd></td>
-    <td>Cierra BSPWM.</td>
+    <td>Cierra BSPWM</td>
   </tr>
   <tr>
     <td><kbd>super</kbd> + <kbd>alt</kbd> + <kbd>r</kbd></td>
-    <td>Reinicia BSPWM.</td>
+    <td>Reinicia BSPWM</td>
   </tr>
   <tr>
     <td><kbd>super</kbd> + <kbd>q</kbd></td>
-    <td>Cierra la ventana actual.</td>
+    <td>Cierra la ventana actual</td>
   </tr>
   <tr>
     <td><kbd>super</kbd> + <kbd>shift</kbd> + <kbd>q</kbd></td>
-    <td>Mata la ventana actual.</td>
+    <td>Mata la ventana actual</td>
   </tr>
   <tr>
     <td><kbd>super</kbd> + <kbd>m</kbd></td>
-    <td>Alterna entre el diseño de mosaico y monocle.</td>
+    <td>Alterna entre el diseño de mosaico y monocle</td>
   </tr>
   <tr>
     <td><kbd>XF86MonBrightnessUp</kbd></td>
-    <td>Aumenta el brillo en 5%.</td>
+    <td>Aumenta el brillo en 5%</td>
   </tr>
   <tr>
     <td><kbd>XF86MonBrightnessDown</kbd></td>
-    <td>Disminuye el brillo en 5%.</td>
+    <td>Disminuye el brillo en 5%</td>
   </tr>
   <tr>
     <td><kbd>super</kbd> + <kbd>w</kbd></td>
-    <td>Abre el navegador - Firefox.</td>
+    <td>Firefox</td>
   </tr>
   <tr>
     <td><kbd>super</kbd> + <kbd>n</kbd></td>
-    <td>Abre el Gestor de Archivos - Nemo.</td>
+    <td>Nemo</td>
   </tr>
   <tr>
     <td><kbd>super</kbd> + <kbd>a</kbd></td>
-    <td>Abre Flameshot para capturar capturas de pantalla.</td>
+    <td>Flameshot</td>
   </tr>
 </table>
 
