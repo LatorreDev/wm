@@ -38,6 +38,7 @@ cp aliases ~/.aliases
 
 # Walogram (Telegram theme)
 cd ~/ && git clone https://codeberg.org/thirtysixpw/walogram
+sleep 2
 cp constantsTelegram.tdesktop-theme ~/walogram/constants.tdesktop-theme
 cd ~/walogram/ && sudo make install
 
