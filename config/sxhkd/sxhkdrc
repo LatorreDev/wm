@@ -25,10 +25,6 @@ super + shift + d
                 -columns 2 -padding 50 -hide-scrollbar -terminal alacritty \
                 -show-icons -drun -icon-theme "Qogir-dark" -font "Hurmit Nerd Font Regular 8"
 
-# power-menu 
-super + shift + e
-     ~/.config/rofi/powermenu.sh
-
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd
