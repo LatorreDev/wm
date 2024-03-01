@@ -166,21 +166,21 @@ Este script usa una plantilla de Oomox ubicada en .cache/wal/oomox_lcars.
 
 
 ### Dracula
-![](https://github.com/Mike-18awq/bspwm-pywal/blob/main/Dracula1.png)
-![](https://github.com/Mike-18awq/bspwm-pywal/blob/main/Dracula2.png)
-![](https://github.com/Mike-18awq/bspwm-pywal/blob/main/Dracula3.png)
+![](https://github.com/Mike-18awq/dotfiles/blob/main/Dracula1.png)
+![](https://github.com/Mike-18awq/dotfiles/blob/main/Dracula2.png)
+![](https://github.com/Mike-18awq/dotfiles/blob/main/Dracula3.png)
 
 ### Nord
-![](https://github.com/Mike-18awq/bspwm-pywal/blob/main/Nord1.png)
-![](https://github.com/Mike-18awq/bspwm-pywal/blob/main/Nord2.png)
-![](https://github.com/Mike-18awq/bspwm-pywal/blob/main/Nord3.png)
+![](https://github.com/Mike-18awq/dotfiles/blob/main/Nord1.png)
+![](https://github.com/Mike-18awq/dotfiles/blob/main/Nord2.png)
+![](https://github.com/Mike-18awq/dotfiles/blob/main/Nord3.png)
 
 ### NordRed
-![](https://github.com/Mike-18awq/bspwm-pywal/blob/main/NordRed1.png)
-![](https://github.com/Mike-18awq/bspwm-pywal/blob/main/NordRed2.png)
-![](https://github.com/Mike-18awq/bspwm-pywal/blob/main/NordRed3.png)
+![](https://github.com/Mike-18awq/dotfiles/blob/main/NordRed1.png)
+![](https://github.com/Mike-18awq/dotfiles/blob/main/NordRed2.png)
+![](https://github.com/Mike-18awq/dotfiles/blob/main/NordRed3.png)
 
 ### Rose Pine
-![](https://github.com/Mike-18awq/bspwm-pywal/blob/main/RosePine1.png)
-![](https://github.com/Mike-18awq/bspwm-pywal/blob/main/RosePine2.png)
-![](https://github.com/Mike-18awq/bspwm-pywal/blob/main/RosePine3.png)
+![](https://github.com/Mike-18awq/dotfiles/blob/main/RosePine1.png)
+![](https://github.com/Mike-18awq/dotfiles/blob/main/RosePine2.png)
+![](https://github.com/Mike-18awq/dotfiles/blob/main/RosePine3.png)
