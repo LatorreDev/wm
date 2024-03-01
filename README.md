@@ -76,6 +76,65 @@ Puedes elegir entre los siguientes temas ejecutando cualquiera de las siguientes
   ```
 Este script usa una plantilla de Oomox ubicada en .cache/wal/oomox_lcars.
 
+# Atajos de teclado
+
+## Terminal Emulator
+
+- **super + Return**: Abre Alacritty.
+
+## Lanzador de programas
+
+- **super + d**: Abre Rofi para lanzar programas. Utiliza el tema "Qogir-dark" con la fuente "Hurmit Nerd Font Regular 8" y muestra iconos.
+
+## Mostrar ventana abierta
+
+- **super + ctrl + d**: Muestra las ventanas abiertas en Rofi. Utiliza el tema "Qogir-dark" con la fuente "Hurmit Nerd Font Regular 8" y muestra iconos.
+
+## Mostrar sesiones SSH
+
+- **super + shift + d**: Muestra las sesiones SSH disponibles en Rofi. Utiliza el tema "Qogir-dark" con la fuente "Hurmit Nerd Font Regular 8" y muestra iconos.
+
+## Menú de energía
+
+- **super + shift + e**: Ejecuta el script `powermenu.sh` ubicado en `~/.config/rofi/`.
+
+## Recargar configuración de SXHKD
+
+- **super + Escape**: Recarga la configuración de SXHKD.
+
+## Atajos de BSPWM
+
+### Salir/reiniciar BSPWM
+
+- **super + alt + q**: Cierra BSPWM.
+- **super + alt + r**: Reinicia BSPWM.
+
+### Cerrar y matar
+
+- **super + q**: Cierra la ventana actual.
+- **super + shift + q**: Mata la ventana actual.
+
+### Alternar entre diseños
+
+- **super + m**: Alterna entre el diseño de mosaico y monocle.
+
+### Otros atajos
+
+- (Los demás atajos de BSPWM pueden ser copiados directamente.)
+
+## Atajos especiales
+
+### Ajustar brillo
+
+- **XF86MonBrightnessUp**: Aumenta el brillo en 5%.
+- **XF86MonBrightnessDown**: Disminuye el brillo en 5%.
+
+## Atajos personalizados
+
+- **super + w**: Abre Firefox.
+- **super + n**: Abre Nemo.
+- **super + a**: Abre Flameshot GUI.
+
 ## Capturas de Pantalla
 ### Dracula
 ![](https://github.com/Mike-18awq/bspwm-pywal/blob/main/Dracula1.png)
