@@ -1,3 +1,74 @@
+<table>
+  <tr>
+    <th>Teclas</th>
+    <th>Acción</th>
+  </tr>
+  <tr>
+    <td><kbd>super</kbd> + <kbd>Return</kbd></td>
+    <td>Abre Alacritty.</td>
+  </tr>
+  <tr>
+    <td><kbd>super</kbd> + <kbd>d</kbd></td>
+    <td>Abre Rofi para lanzar programas. Utiliza el tema "Qogir-dark" con la fuente "Hurmit Nerd Font Regular 8" y muestra iconos.</td>
+  </tr>
+  <tr>
+    <td><kbd>super</kbd> + <kbd>ctrl</kbd> + <kbd>d</kbd></td>
+    <td>Muestra las ventanas abiertas en Rofi. Utiliza el tema "Qogir-dark" con la fuente "Hurmit Nerd Font Regular 8" y muestra iconos.</td>
+  </tr>
+  <tr>
+    <td><kbd>super</kbd> + <kbd>shift</kbd> + <kbd>d</kbd></td>
+    <td>Muestra las sesiones SSH disponibles en Rofi. Utiliza el tema "Qogir-dark" con la fuente "Hurmit Nerd Font Regular 8" y muestra iconos.</td>
+  </tr>
+  <tr>
+    <td><kbd>super</kbd> + <kbd>shift</kbd> + <kbd>e</kbd></td>
+    <td>Ejecuta el script <code>powermenu.sh</code> ubicado en <code>~/.config/rofi/</code>.</td>
+  </tr>
+  <tr>
+    <td><kbd>super</kbd> + <kbd>Escape</kbd></td>
+    <td>Recarga la configuración de SXHKD.</td>
+  </tr>
+  <tr>
+    <td><kbd>super</kbd> + <kbd>alt</kbd> + <kbd>q</kbd></td>
+    <td>Cierra BSPWM.</td>
+  </tr>
+  <tr>
+    <td><kbd>super</kbd> + <kbd>alt</kbd> + <kbd>r</kbd></td>
+    <td>Reinicia BSPWM.</td>
+  </tr>
+  <tr>
+    <td><kbd>super</kbd> + <kbd>q</kbd></td>
+    <td>Cierra la ventana actual.</td>
+  </tr>
+  <tr>
+    <td><kbd>super</kbd> + <kbd>shift</kbd> + <kbd>q</kbd></td>
+    <td>Mata la ventana actual.</td>
+  </tr>
+  <tr>
+    <td><kbd>super</kbd> + <kbd>m</kbd></td>
+    <td>Alterna entre el diseño de mosaico y monocle.</td>
+  </tr>
+  <tr>
+    <td><kbd>XF86MonBrightnessUp</kbd></td>
+    <td>Aumenta el brillo en 5%.</td>
+  </tr>
+  <tr>
+    <td><kbd>XF86MonBrightnessDown</kbd></td>
+    <td>Disminuye el brillo en 5%.</td>
+  </tr>
+  <tr>
+    <td><kbd>super</kbd> + <kbd>w</kbd></td>
+    <td>Abre el navegador - Firefox.</td>
+  </tr>
+  <tr>
+    <td><kbd>super</kbd> + <kbd>n</kbd></td>
+    <td>Abre el Gestor de Archivos - Nemo.</td>
+  </tr>
+  <tr>
+    <td><kbd>super</kbd> + <kbd>a</kbd></td>
+    <td>Abre Flameshot para capturar capturas de pantalla.</td>
+  </tr>
+</table>
+
 # BSPWM-Pywal
 
 Este repositorio contiene mi configuración personalizada para el gestor de ventanas BSPWM, junto con Pywal para la generación automática de esquemas de colores basados en fondos de pantalla. Incluye plantillas para los temas de Dracula, Rose Pine y Nord, que se pueden aplicar fácilmente con Pywal.
@@ -127,7 +198,6 @@ Este script usa una plantilla de Oomox ubicada en .cache/wal/oomox_lcars.
 - **super + n**: Abre el Gestor de Archivos - Nemo.
 - **super + a**: Abre Flameshot para capturar capturas de pantalla.
 
-## Capturas de Pantalla
 ### Dracula
 ![](https://github.com/Mike-18awq/bspwm-pywal/blob/main/Dracula1.png)
 ![](https://github.com/Mike-18awq/bspwm-pywal/blob/main/Dracula2.png)
