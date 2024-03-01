@@ -13,7 +13,7 @@ wal --set Dracula
 Se puede generar colores para GTK y iconos con oomox con el pequeño script ubicado en ~/.config/bspwm/colorsGTK-Icons.sh q usa una plantilla de oomox q se ubica en .cache/wal/.cache/wal/oomox_lcars
 No sabia donde poner el script xd
 
-# Instalacion
+### Instalacion
 cd ~/ && git clone https://github.com/Mike-18awq/bspwm-pywal && cd ~/bspwm-pywal && chmod +x install-bspwm.sh && ./install-bspwm.sh
 
 
