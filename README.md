@@ -51,13 +51,12 @@ Puedes elegir entre los siguientes temas ejecutando cualquiera de las siguientes
 
   wal --set Rose-Pine
 
-Generación de Colores para GTK e Iconos con Oomox
+## Generación de Colores para GTK e Iconos con Oomox
 
 Se puede generar colores para GTK e iconos con Oomox utilizando el siguiente script:
 
-bash
-
-~/.config/bspwm/colorsGTK-Icons.sh
+  ~/.config/bspwm/colorsGTK-Icons.sh
 
 Este script usa una plantilla de Oomox ubicada en .cache/wal/oomox_lcars.
-Capturas de Pantalla
+
+## Capturas de Pantalla
