@@ -1,0 +1,35 @@
+# Pywaal reload GTK and colors
+wal_wrapper() {
+    if [ "$1" = "--set" ]; then
+        tema="$2"
+        case "$tema" in
+	        "Catppuccin")
+            ~/.GTK-configs/Catppuccin.sh;;
+            "Dracula")
+                ~/.GTK-configs/Dracula.sh;;
+            "Gruvbox")
+                ~/.GTK-configs/Gruvbox.sh;;
+            "Nord")
+                ~/.GTK-configs/Nord.sh;;
+            "RosePine")
+                ~/.GTK-configs/RosePine.sh;;
+            "Everforest")
+                ~/.GTK-configs/Everforest.sh;;
+            "Monokai")
+                ~/.GTK-configs/Monokai.sh;;
+            "NordRed")
+                ~/.GTK-configs/NordRed.sh;;
+            *)
+                if [[ "$tema" == *"+" ]]; then
+                    echo "Tema no reconocido: $tema_base"
+                else
+                    wal --theme "$tema"
+                fi
+                ;;
+        esac
+   else
+        command wal "$@"
+    fi
+}
+
+alias wal='wal_wrapper'
