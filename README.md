@@ -5,7 +5,9 @@ Este repositorio contiene mi configuración personalizada para el gestor de vent
 - Polybar
 - Dunst
 - Alacritty
-- GTK (si instalas oomox si realizas esto: [install-bspwm](https://github.com/Mike-18awq/dotfiles?tab=readme-ov-file#generaci%C3%B3n-de-colores-para-gtk-e-iconos-con-oomox
+- Programas QT con el uso del tema GTK
+- Rofi
+- GTK (si instalas oomox si realizas esto: [OOMOX](https://github.com/Mike-18awq/dotfiles?tab=readme-ov-file#generaci%C3%B3n-de-colores-para-gtk-e-iconos-con-oomox)
 
 ## Instalación
 
