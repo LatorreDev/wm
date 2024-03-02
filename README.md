@@ -112,6 +112,8 @@ Este script usa una plantilla de Oomox ubicada en .cache/wal/oomox_lcars.
     ln -s ~/.cache/wal/NvchadWal.lua ~/.local/share/nvim/lazy/base46/lua/base46/themes/pywal.lua
     sed -i '8s/.*/  theme = "pywal",/' ~/.config/nvim/lua/custom/chadrc.lua
     sed -i '9s/.*/  theme_toggle = { "pywal", "pywal" },/' ~/.config/nvim/lua/custom/chadrc.lua
+    sed -i "66i\---| \\'\"pywal\"\\';" ~/.local/share/nvim/lazy/ui/nvchad_types/themes.lua
+    echo "---@field pywal ThemeTable # Changes for pywal theme" ~/.local/share/nvim/lazy/ui/nvchad_types/themes.lua
     ```
     
   2. Entrar a neovim y apretar
