@@ -109,10 +109,10 @@ Este script usa una plantilla de Oomox ubicada en .cache/wal/oomox_lcars.
   1. Copiar la plantilla generada x pywal en la direccion de los temas de Nvchad
 
     ```bash
-        cp ~/.cache/wal/NvchadWal.lua ~/.local/share/nvim/lazy/base46/lua/base46/themes/pywal.lua
+    cp ~/.cache/wal/NvchadWal.lua ~/.local/share/nvim/lazy/base46/lua/base46/themes/pywal.lua
     ```
   2. Entrar a neovim y apretar
-         <td><kbd>super</kbd> + <kbd>n</kbd></td>
+             <td><kbd>Space</kbd> + <kbd>t</kbd> + <kbd>h</kbd></td>
     
 ## Keybindings
 
