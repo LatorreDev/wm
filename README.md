@@ -113,6 +113,8 @@ Este script usa una plantilla de Oomox ubicada en .cache/wal/oomox_lcars.
     ```
   2. Entrar a neovim y apretar
              <td><kbd>Space</kbd> + <kbd>t</kbd> + <kbd>h</kbd></td>
+             
+  2. Seleccionar "pywal"
     
 ## Keybindings
 
