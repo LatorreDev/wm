@@ -15,6 +15,7 @@ Este repositorio contiene mi configuración personalizada para el gestor de vent
 ## Instalación
 
 Para instalar y configurar BSPWM junto con Pywal, sigue estos pasos:
+#### Nota: [install-bspwm.sh](https://github.com/Mike-18awq/dotfiles/blob/main/install-bspwm.sh) solo funcionara en **Arch Linux** y sus distribuciones derivadas 
 
 1. Clona este repositorio en tu directorio home:
 
