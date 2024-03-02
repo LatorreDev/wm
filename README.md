@@ -42,7 +42,7 @@ Quiero agradecer a gh0stzk por compartir su configuración de ncmpcpp y mpd las 
 
 ## Temas Disponibles
 
-Puedes elegir entre los siguientes temas ejecutando cualquiera de las siguientes líneas de comando:
+Puedes elegir entre los siguientes temas ejecutando cualquiera de las siguientes líneas en la terminal:
 - Catppuccin:
 
   ```bash
