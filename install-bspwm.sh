@@ -98,6 +98,8 @@ gsettings set org.cinnamon.desktop.default-applications.terminal exec /usr/bin/a
 pactl set-sink-volume @DEFAULT_SINK@ 100%
 
 # neovim - nvChad
+mkdir -p ~/.config/nvim
+rm -rf ~/.config/nvim/*
 git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
 
 # Colors neovim
