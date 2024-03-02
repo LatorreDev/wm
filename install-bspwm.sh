@@ -97,13 +97,10 @@ gsettings set org.cinnamon.desktop.default-applications.terminal exec /usr/bin/a
 # Volume initialize in 100%
 pactl set-sink-volume @DEFAULT_SINK@ 100%
 
+# Set colors all
+~/.GTK-configs/Nord.sh
+
 # neovim - nvChad
 mkdir -p ~/.config/nvim
 rm -rf ~/.config/nvim/*
 git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
-
-# Colors neovim
-cp ~/.cache/wal/NvchadWal.lua ~/.local/share/nvim/lazy/base46/lua/base46/themes/pywal.lua
-
-# Set colors all
-~/.GTK-configs/Nord.sh
