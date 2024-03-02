@@ -108,3 +108,4 @@ git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
 
 # detects Dual Boot in grub
 echo "GRUB_DISABLE_OS_PROBER=false" | sudo tee -a /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg
