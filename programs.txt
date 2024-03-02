@@ -40,6 +40,7 @@ networkmanager
 nitrogen
 noto-fonts
 ntfs-3g
+os-prober
 otf-hermit-nerd
 pamixer
 papirus-icon-theme
