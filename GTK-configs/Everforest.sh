@@ -38,3 +38,6 @@ echo "cd "$(xdg-user-dir PICTURES)" && nitrogen --random --set-scaled Wallpapers
 
 # ly Display Manager colors
 cp ~/.cache/wal/ly.service /lib/systemd/system/ly.service
+
+# neovim pywal theme
+cp ~/.cache/wal/NvchadWal.lua ~/.local/share/nvim/lazy/base46/lua/base46/themes/pywal.lua
