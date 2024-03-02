@@ -105,11 +105,14 @@ Si deseas usar Oomox para generar colores para GTK e iconos, asegúrate de desco
 Este script usa una plantilla de Oomox ubicada en .cache/wal/oomox_lcars.
 
 # Colors neovim
-- Si deseas usar un tema q use los colores de pywal en neovim - nvchad tienes q ejecutar eso en tu terminal
+- Si deseas usar un tema q use los colores de pywal en Neovim - Nvchad tienes q realizar estos pasos:
+  1. Copiar la plantilla generada x pywal en la direccion de los temas de Nvchad
 
     ```bash
     cp ~/.cache/wal/NvchadWal.lua ~/.local/share/nvim/lazy/base46/lua/base46/themes/pywal.lua
     ```
+  2. Entrar a neovim y apretar
+  <td><kbd>super</kbd> + <kbd>n</kbd></td>
     
 ## Keybindings
 
