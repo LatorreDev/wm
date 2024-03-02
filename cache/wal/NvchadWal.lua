@@ -1,64 +1,64 @@
 -- Credits to original theme https://github.com/dracula/vim
 -- This is a modified version 
 
-local M = {{}}
+local M = {}
 
-M.base_30 = {{
-  white = "{color15}",
-  darker_black = "{color0}",
-  black = "{color0}", --  nvim bg
-  black2 = "{color8}",
-  one_bg = "{color8}", -- real bg of onedark
-  one_bg2 = "{color8}",
-  one_bg3 = "{color8}",
-  grey = "{color8}",
-  grey_fg = "{color8}",
-  grey_fg2 = "{color7}",
-  light_grey = "{color0}",
-  red = "{color1}",
-  baby_pink = "{color13}",
-  pink = "{color5}",
-  line = "{color8}", -- for lines like vertsplit
-  green = "{color2}",
-  vibrant_green = "{color10}",
-  nord_blue = "{color4}",
-  blue = "{color12}",
-  yellow = "{color3}",
-  sun = "{color11}",
-  purple = "{color5}",
-  dark_purple = "{color13}",
-  teal = "{color12}",
-  orange = "{color11}",
-  cyan = "{color6}",
-  statusline_bg = "{color8}",
-  lightbg = "{color8}", -- statusbar
-  pmenu_bg = "{color8}", -- statusbar
-  folder_bg = "{color8}", -- statusbar
-}}
+M.base_30 = {
+  white = "#e5e9f0",
+  darker_black = "#2E3440",
+  black = "#2E3440", --  nvim bg
+  black2 = "#4C566A",
+  one_bg = "#4C566A", -- real bg of onedark
+  one_bg2 = "#4C566A",
+  one_bg3 = "#4C566A",
+  grey = "#4C566A",
+  grey_fg = "#4C566A",
+  grey_fg2 = "#E5E9F0",
+  light_grey = "#2E3440",
+  red = "#88C0D0",
+  baby_pink = "#A3BE8C",
+  pink = "#A3BE8C",
+  line = "#4C566A", -- for lines like vertsplit
+  green = "#BF616A",
+  vibrant_green = "#BF616A",
+  nord_blue = "#EBCB8B",
+  blue = "#ebcb8b",
+  yellow = "#5E81AC",
+  sun = "#5E81AC",
+  purple = "#A3BE8C",
+  dark_purple = "#A3BE8C",
+  teal = "#ebcb8b",
+  orange = "#5E81AC",
+  cyan = "#D08770",
+  statusline_bg = "#4C566A",
+  lightbg = "#4C566A", -- statusbar
+  pmenu_bg = "#4C566A", -- statusbar
+  folder_bg = "#4C566A", -- statusbar
+}
 
-M.base_16 = {{
-  base00 = "{color0}",
-  base01 = "{color8}",
-  base02 = "{color1}",
-  base03 = "{color9}",
-  base04 = "{color7}",
-  base05 = "{color15}",
-  base06 = "{color3}",
-  base07 = "{color11}",
-  base08 = "{color1}",
-  base09 = "{color9}",
-  base0A = "{color5}",
-  base0B = "{color13}",
-  base0C = "{color1}",
-  base0D = "{color9}",
-  base0E = "{color4}",
-  base0F = "{color15}", -- [] and ,
-}}
+M.base_16 = {
+  base00 = "#2E3440",
+  base01 = "#4C566A",
+  base02 = "#88C0D0",
+  base03 = "#88C0D0",
+  base04 = "#E5E9F0",
+  base05 = "#e5e9f0",
+  base06 = "#5E81AC",
+  base07 = "#5E81AC",
+  base08 = "#88C0D0",
+  base09 = "#88C0D0",
+  base0A = "#A3BE8C",
+  base0B = "#A3BE8C",
+  base0C = "#88C0D0",
+  base0D = "#88C0D0",
+  base0E = "#EBCB8B",
+  base0F = "#e5e9f0", -- [] and ,
+}
 
-M.polish_hl = {{
-  ["@function.builtin"] = {{ fg = M.base_30.cyan }},
-  ["@number"] = {{ fg = M.base_30.purple }},
-}}
+M.polish_hl = {
+  ["@function.builtin"] = { fg = M.base_30.cyan },
+  ["@number"] = { fg = M.base_30.purple },
+}
 
 M.type = "dark"
 
