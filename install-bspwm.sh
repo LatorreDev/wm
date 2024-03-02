@@ -47,10 +47,28 @@ pip install PyGObject --break-system-packages
 pip install pywal --break-system-packages
 
 # Path
+echo '' >> ~/.bashrc
+echo 'export VISUAL="${EDITOR}"' >> ~/.bashrc
+echo 'export EDITOR="xed"' >> ~/.bashrc
+echo 'export TERM="alacritty"' >> ~/.bashrc
+echo 'export TERMINAL="alacritty"' >> ~/.bashrc
+echo 'export BROWSER="firefox"' >> ~/.bashrc
+echo 'export HISTORY_IGNORE="(ls|cd|pwd|exit|sudo reboot|history|cd -|cd ..)"' >> ~/.bashrc
+echo '' >> ~/.bashrc
 echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc
 echo 'source $HOME/.aliases' >> ~/.bashrc
+
+echo '' >> ~/.zshrc
+echo 'export VISUAL="${EDITOR}"' >> ~/.zshrc
+echo 'export EDITOR="xed"' >> ~/.zshrc
+echo 'export TERM="alacritty"' >> ~/.zshrc
+echo 'export TERMINAL="alacritty"' >> ~/.zshrc
+echo 'export BROWSER="firefox"' >> ~/.zshrc
+echo 'export HISTORY_IGNORE="(ls|cd|pwd|exit|sudo reboot|history|cd -|cd ..)"' >> ~/.zshrc
+echo '' >> ~/.zshrc
 echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zshrc
 echo 'source $HOME/.aliases' >> ~/.zshrc
+
 sleep 1
 source ~/.bashrc
 source ~/.zshrc
