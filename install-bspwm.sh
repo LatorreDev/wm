@@ -101,6 +101,7 @@ pactl set-sink-volume @DEFAULT_SINK@ 100%
 ~/.GTK-configs/Nord.sh
 
 # neovim - nvChad
+sudo pacman -S npm nodejs ripgrep
 mkdir -p ~/.config/nvim
 rm -rf ~/.config/nvim/*
 git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
