@@ -1,5 +1,4 @@
--- Credits to original theme https://github.com/dracula/vim
--- This is a modified version 
+-- Credits to https://github.com/Mike-18awq/dotfiles/blob/main/config/wal/templates/NvchadWal.lua
 
 local M = {}
 
@@ -15,13 +14,13 @@ M.base_30 = {
   grey_fg = "#4C566A",
   grey_fg2 = "#E5E9F0",
   light_grey = "#2E3440",
-  red = "#88C0D0",
+  red = "#88C0D0",--color principal
   baby_pink = "#A3BE8C",
   pink = "#A3BE8C",
   line = "#4C566A", -- for lines like vertsplit
-  green = "#BF616A",
+  green = "#88C0D0",--color principal
   vibrant_green = "#BF616A",
-  nord_blue = "#EBCB8B",
+  nord_blue = "#88C0D0",
   blue = "#ebcb8b",
   yellow = "#5E81AC",
   sun = "#5E81AC",
@@ -39,18 +38,18 @@ M.base_30 = {
 M.base_16 = {
   base00 = "#2E3440",
   base01 = "#4C566A",
-  base02 = "#88C0D0",
-  base03 = "#88C0D0",
+  base02 = "#88C0D0",--coor principal
+  base03 = "#88C0D0",--color principal
   base04 = "#E5E9F0",
   base05 = "#e5e9f0",
   base06 = "#5E81AC",
   base07 = "#5E81AC",
-  base08 = "#88C0D0",
-  base09 = "#88C0D0",
+  base08 = "#88C0D0",--color principal
+  base09 = "#88C0D0",--color principal
   base0A = "#A3BE8C",
   base0B = "#A3BE8C",
-  base0C = "#88C0D0",
-  base0D = "#88C0D0",
+  base0C = "#5E81AC",
+  base0D = "#88C0D0",--color principal
   base0E = "#EBCB8B",
   base0F = "#e5e9f0", -- [] and ,
 }
