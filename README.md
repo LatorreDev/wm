@@ -1,3 +1,5 @@
+[In english](https://github.com/Mike-18awq/dotfiles/blob/main/READMEinEnglish.md)
+
 # BSPWM-Pywal
 
 Este repositorio contiene mi configuración personalizada para el gestor de ventanas BSPWM, junto con Pywal para la generación automática de esquemas de colores basados en fondos de pantalla. Incluye plantillas para los temas de Dracula, Rose Pine y Nord, que se pueden aplicar fácilmente con Pywal incluye su integracion con:
