@@ -45,7 +45,7 @@ I want to thank gh0stzk for sharing his configuration of ncmpcpp and mpd which I
 
 You can choose from the following themes by executing any of the following lines in the terminal:
 - Pywal:
-  ##### Note: This uses the colors currently loaded in Pywal.[How to use Pywal?](https://github.com/dylanaraps/pywal/wiki/Getting-Started)
+  ##### Note: This uses the colors currently loaded in Pywal. [How to use Pywal?](https://github.com/dylanaraps/pywal/wiki/Getting-Started)
 
   ```bash
   wal --set Pywal
