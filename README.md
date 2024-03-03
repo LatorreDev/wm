@@ -99,8 +99,6 @@ Puedes elegir entre los siguientes temas ejecutando cualquiera de las siguientes
   wal --set Rose-Pine
   ```
 
-Este script usa una plantilla de Oomox ubicada en .cache/wal/oomox_lcars.
-
 # Colors neovim
 - Si deseas usar un tema q use los colores de pywal en Neovim - Nvchad tienes q realizar estos pasos (solo lo tienes q hacer la primera vez):
   1. Crear acceso directo de la plantilla generada x pywal en la direccion de los temas de Nvchad
