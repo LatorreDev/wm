@@ -1,4 +1,4 @@
-[In english](https://github.com/Mike-18awq/dotfiles/blob/main/READMEinEnglish.md)
+[English](https://github.com/Mike-18awq/dotfiles/blob/main/README-EN.md)
 
 # BSPWM-Pywal
 
