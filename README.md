@@ -9,8 +9,7 @@ Este repositorio contiene mi configuración personalizada para el gestor de vent
 - Rofi
 - Neovim (se genera un tema desde pywal pero la configuracion es enteramente de Nvchad)
 - Ly Display Manager
-- OOMOX - GTK (si realizas esto: [OOMOX](https://github.com/Mike-18awq/dotfiles?tab=readme-ov-file#generaci%C3%B3n-de-colores-para-gtk-e-iconos-con-oomox))
-##### Nota: Ya tienes los temas gtk de todos los temas, eso último es solo x si quieres generar los tuyos propios
+- GTK - OOMOX
 
 ## Instalación
 
