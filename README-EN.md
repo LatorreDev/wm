@@ -204,3 +204,8 @@ Keybindings
 ![](https://github.com/Mike-18awq/dotfiles/blob/main/RosePine1.png)
 ![](https://github.com/Mike-18awq/dotfiles/blob/main/RosePine2.png)
 ![](https://github.com/Mike-18awq/dotfiles/blob/main/RosePine3.png)
+
+### Pywal - colors from Image
+![](https://github.com/Mike-18awq/dotfiles/blob/main/Pywal1.png)
+![](https://github.com/Mike-18awq/dotfiles/blob/main/Pywal2.png)
+![](https://github.com/Mike-18awq/dotfiles/blob/main/Pywal3.png)
