@@ -5,9 +5,9 @@ This repository contains my customized configuration for the BSPWM window manage
 - Polybar
 - Dunst
 - Alacritty
-- Programas QT con el uso del tema GTK
+- QT programs with the use of the GTK theme
 - Rofi
-- Neovim (se genera un tema desde pywal pero la configuracion es enteramente de Nvchad)
+- Neovim (a theme is generated from Pywal but the configuration is entirely from Nvchad)
 - Ly Display Manager
 - GTK - OOMOX
 
