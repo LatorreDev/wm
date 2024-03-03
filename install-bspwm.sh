@@ -33,6 +33,9 @@ cp -r GTK-configs/* ~/.GTK-configs/
 # .xsettingsd config
 cp xsettingsd ~/.xsettingsd
 
+# .gtkrc-2.0 config
+cp gtkrc-2.0 ~/.gtkrc-2.0
+
 # wal --set
 cp aliases ~/.aliases
 
