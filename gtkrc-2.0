@@ -1,0 +1,3 @@
+include "/home/mike/.themes/oomox-Pywal/gtk-2.0/gtkrc"
+gtk-icon-theme-name = "oomox-Pywal"
+gtk-font-name="Hurmit Nerd Font Light 9"
