@@ -81,11 +81,9 @@ mkdir -p ~/.config/dunst/ && ln -s ~/.cache/wal/dunstrc ~/.config/dunst/dunstrc
 wal --theme Dracula
 
 # Oomox install (themes GTK generator)
-# Si quieres generar tus propios temas  GTKcon oomox descomentar las 3 lineas siguientes
-#cd ~/ && git clone https://github.com/themix-project/oomox.git --recursive
-#cd ~/oomox && make -f po.mk install
-#mv ~/oomox/ ~/.oomox
-#Es muy pesado por eso si no quieres generar tus temas entonces no lo instales
+cd ~/ && git clone https://github.com/themix-project/oomox.git --recursive
+cd ~/oomox && make -f po.mk install
+mv ~/oomox/ ~/.oomox
 
 # Execution permissions
 chmod +x ~/.config/bspwm/bspwmrc
