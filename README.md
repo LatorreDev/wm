@@ -118,7 +118,7 @@ Puedes elegir entre los siguientes temas ejecutando cualquiera de las siguientes
              
   2. Seleccionar "pywal"
     
-## Keybindings
+## Atajos de teclado
 
 <table>
   <tr>
