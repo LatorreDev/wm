@@ -100,23 +100,6 @@ Puedes elegir entre los siguientes temas ejecutando cualquiera de las siguientes
   ```bash
   wal --set Rose-Pine
   ```
-
-# Colors neovim
-- Si deseas usar un tema q use los colores de pywal en Neovim - Nvchad tienes q realizar estos pasos (solo lo tienes q hacer la primera vez):
-  1. Crear acceso directo de la plantilla generada x pywal en la direccion de los temas de Nvchad
-
-    ```bash
-    ln -s ~/.cache/wal/NvchadWal.lua ~/.local/share/nvim/lazy/base46/lua/base46/themes/pywal.lua
-    sed -i '8s/.*/  theme = "pywal",/' ~/.config/nvim/lua/custom/chadrc.lua
-    sed -i '9s/.*/  theme_toggle = { "pywal", "pywal" },/' ~/.config/nvim/lua/custom/chadrc.lua
-    sed -i "66i\---| \\'\"pywal\"\\';" ~/.local/share/nvim/lazy/ui/nvchad_types/themes.lua
-    echo "---@field pywal ThemeTable # Changes for pywal theme" ~/.local/share/nvim/lazy/ui/nvchad_types/themes.lua
-    ```
-    
-  2. Entrar a neovim y apretar
-             <td><kbd>Space</kbd> + <kbd>t</kbd> + <kbd>h</kbd></td>
-             
-  2. Seleccionar "pywal"
     
 ## Atajos de teclado
 
