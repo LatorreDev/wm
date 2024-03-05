@@ -9,7 +9,7 @@ Este repositorio contiene mi configuración personalizada para el gestor de vent
 - Alacritty
 - Programas QT con el uso del tema GTK
 - Rofi
-- Neovim (se genera un tema desde pywal pero la configuracion es enteramente de Nvchad)
+- Neovim
 - Ly Display Manager
 - GTK - OOMOX
 
