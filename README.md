@@ -193,6 +193,6 @@ Puedes elegir entre los siguientes temas ejecutando cualquiera de las siguientes
 ![](https://github.com/Mike-18awq/dotfiles/blob/main/RosePine3.png)
 
 ### Pywal - colores de una Imagen
-![](https://github.com/Mike-18awq/dotfiles/blob/main/Pywal1.png)
+![](https://github.com/Mike-18awq/dotfiles/blob/main/Pywal1.0.png)
 ![](https://github.com/Mike-18awq/dotfiles/blob/main/Pywal2.png)
 ![](https://github.com/Mike-18awq/dotfiles/blob/main/Pywal3.png)
