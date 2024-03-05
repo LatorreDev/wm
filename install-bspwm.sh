@@ -119,11 +119,12 @@ pactl set-sink-volume @DEFAULT_SINK@ 100%
 # Set colors all
 ~/.GTK-configs/Nord.sh
 
-# neovim - nvChad
-sudo pacman -S npm nodejs ripgrep
-mkdir -p ~/.config/nvim
-rm -rf ~/.config/nvim/*
-git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
+# neovim
+git clone https://github.com/wbthomason/packer.nvim ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+sleep 1
+nvim -c ':lua require("packer").install()' -c ':q'
+sleep 1
+nvim -c ':call coc#util#install()' -c ':q'
 
 # detects Dual Boot in grub
 echo "GRUB_DISABLE_OS_PROBER=false" | sudo tee -a /etc/default/grub
