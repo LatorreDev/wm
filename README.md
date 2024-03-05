@@ -12,6 +12,7 @@ Este repositorio contiene mi configuración personalizada para el gestor de vent
 - Neovim
 - Ly Display Manager
 - GTK - OOMOX
+- Telegram [(walogram)](https://codeberg.org/thirtysixpw/walogram)
 
 ## Instalación
 
