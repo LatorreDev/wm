@@ -1,67 +1,41 @@
+-- Este archivo puede ser cargado llamando a `lua require('plugins')` desde tu init.vim
+require('plugins') -- Para cargar el archivo de configuración de plugins
+
 -- Configuraciones de Neovim
+
+-- Activa números relativos para un fácil desplazamiento en el código
 vim.opt.relativenumber = true
 
--- Theme pywal
+-- Configura el tema utilizando Pywal
 local pywal = require('pywal')
-
 pywal.setup()
 
--- Enable mouse mode, can be useful for resizing splits for example!
+-- Activa el modo de ratón, útil para redimensionar divisiones, por ejemplo
 vim.opt.mouse = 'a'
 
--- Don't show the mode, since it's already in status line
+-- No muestra el modo en la esquina inferior derecha, ya que se muestra en la línea de estado
 vim.opt.showmode = false
 
--- Sync clipboard between OS and Neovim.
---  Remove this option if you want your OS clipboard to remain independent.
---  See `:help 'clipboard'`
+-- Sincroniza el portapapeles entre el sistema operativo y Neovim para un fácil copiar y pegar
 vim.opt.clipboard = 'unnamedplus'
 
--- Enable break indent
+-- Habilita la indentación de salto (break indent)
 vim.opt.breakindent = true
 
--- Save undo history
+-- Guarda el historial de deshacer incluso después de cerrar Neovim
 vim.opt.undofile = true
 
--- Case-insensitive searching UNLESS \C or capital in search
+-- Realiza búsquedas sin distinción entre mayúsculas y minúsculas, a menos que se use \C o haya mayúsculas en la búsqueda
 vim.opt.ignorecase = true
 vim.opt.smartcase = true
 
--- Keep signcolumn on by default
+-- Mantiene la columna de signos activada por defecto
 vim.opt.signcolumn = 'yes'
 
--- lualine
+-- Configuración de Lualine para una línea de estado personalizada
 local lualine = require('lualine')
-
--- Lualine
 lualine.setup {
   options = {
     theme = 'pywal-nvim',
   },
 }
-
--- Inicializar Packer
-return require('packer').startup(function()
-    -- Packer puede gestionarse a sí mismo
-    use 'wbthomason/packer.nvim'
-
-    -- Lista de plugins que quieres instalar
-    use {
-        'nvim-telescope/telescope.nvim',
-        requires = { {'nvim-lua/plenary.nvim'} }
-    }
-    use 'kyazdani42/nvim-tree.lua'
-    use 'nvim-treesitter/nvim-treesitter'
-    use 'neovim/nvim-lspconfig'
-    use 'glepnir/lspsaga.nvim'
-    use 'neoclide/coc.nvim'
-    use 'akinsho/nvim-bufferline.lua'
-    use 'RRethy/vim-illuminate'
-    use 'sindrets/diffview.nvim'
-    use 'lewis6991/gitsigns.nvim'
-    use 'airblade/vim-gitgutter'
-    use 'hoob3rt/lualine.nvim'
-    use 'famiu/feline.nvim'
-    use 'lukas-reineke/indent-blankline.nvim'
-    use { 'AlphaTechnolog/pywal.nvim', as = 'pywal' }
-end)
