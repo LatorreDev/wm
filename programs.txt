@@ -28,6 +28,7 @@ linux-headers
 linux-firmware
 lsd
 lxappearance
+ly
 man-db
 mesa-demos
 mpc
