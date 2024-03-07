@@ -37,6 +37,7 @@ walogram -s
 # nitrogen Wallpaper
 #cd "$(xdg-user-dir PICTURES)" && nitrogen --random --set-scaled Wallpapers/Pywal
 #echo "cd "$(xdg-user-dir PICTURES)" && nitrogen --random --set-scaled Wallpapers/Pywal" >> ~/.config/bspwm/wallpaper.sh
+nitrogen --set-scaled $(cat ~/.cache/wal/wal)
 
 # ly Display Manager colors
 cp ~/.cache/wal/ly.service /lib/systemd/system/ly.service
