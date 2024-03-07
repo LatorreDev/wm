@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mike/Im\u00e1genes/Wallpapers/Walls/Paisajes/11_H759Upr.jpeg",
+    "alpha": "100",
+    "special": {
+        "background": "#0c0f16",
+        "foreground": "#ebcbbe",
+        "cursor": "#ebcbbe"
+    },
+    "colors": {
+        "color0": "#0c0f16",
+        "color1": "#AB8678",
+        "color2": "#E69571",
+        "color3": "#447485",
+        "color4": "#BA7B82",
+        "color5": "#65878A",
+        "color6": "#ABA193",
+        "color7": "#ebcbbe",
+        "color8": "#a48e85",
+        "color9": "#AB8678",
+        "color10": "#E69571",
+        "color11": "#447485",
+        "color12": "#BA7B82",
+        "color13": "#65878A",
+        "color14": "#ABA193",
+        "color15": "#ebcbbe"
+    }
+}
