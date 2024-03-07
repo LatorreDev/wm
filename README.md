@@ -101,7 +101,14 @@ Puedes elegir entre los siguientes temas ejecutando cualquiera de las siguientes
   ```bash
   wal --set Rose-Pine
   ```
-    
+
+- Recargar el ultimo tema Pywal generado x ti mismo:
+  ##### Esto usa el último tema generado con tu ultima ejecución de: [wal --set Pywal](https://github.com/Mike-18awq/dotfiles/tree/main?tab=readme-ov-file#temas-disponibles)
+
+  ```bash
+  wal --set SetPywal
+  ```
+
 ## Atajos de teclado
 
 <table>
