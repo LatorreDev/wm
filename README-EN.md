@@ -38,8 +38,8 @@ To install and configure BSPWM along with Pywal, follow these steps:
 
 I want to thank gh0stzk for sharing his configuration of ncmpcpp and mpd which I "borrowed" xd, and I changed a few things that I adapted for my own use. You can find his original work at the following links:
 
-- [Configuración de MPD](https://github.com/gh0stzk/dotfiles/tree/master/config/mpd)
-- [Configuración de Ncmpcpp](https://github.com/gh0stzk/dotfiles/tree/master/config/ncmpcpp)
+- [MPD config](https://github.com/gh0stzk/dotfiles/tree/master/config/mpd)
+- [Ncmpcpp config](https://github.com/gh0stzk/dotfiles/tree/master/config/ncmpcpp)
 
 ## Temas Disponibles
 
