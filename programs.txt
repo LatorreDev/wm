@@ -38,7 +38,9 @@ neofetch
 neovim
 networkmanager
 nitrogen
+nodejs
 noto-fonts
+npm
 ntfs-3g
 os-prober
 otf-hermit-nerd
