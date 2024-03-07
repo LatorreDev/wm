@@ -50,9 +50,9 @@ theme[free_end]="{color14}"
 
 
 # GRAPHS
-theme[temp_start]="#367bf0"         # Temperature graph colors
-theme[temp_mid]="#b8174c"
-theme[temp_end]="#d41919"
+theme[temp_start]="{color11}"         # Temperature graph colors
+theme[temp_mid]="{color13}"
+theme[temp_end]="{color15}"
 theme[cpu_start]="{color11}"        # CPU graph colors
 theme[cpu_mid]="{color10}"
 theme[cpu_end]="{color9}"
