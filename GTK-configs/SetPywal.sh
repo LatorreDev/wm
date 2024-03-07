@@ -1,13 +1,4 @@
-cp ~/.cache/wal/PywalAux.json ~/.config/wal/colorschemes/dark/SetPywal.json
 killall xsettingsd
-
-# Colors GTK Pywal
-rm -rf .themes/oomox-Pywal
-~/.oomox/plugins/theme_oomox/change_color.sh ~/.cache/wal/oomox_lcars -o oomox-Pywal
-
-# Colors Icons Pywal
-rm -rf ~/.icons/oomox-Pywal
-~/.oomox/plugins/icons_archdroid/archdroid-icon-theme/change_color.sh ~/.cache/wal/oomox_lcars -o oomox-Pywal
 
 # gtk3 theme
 sed -i '2s/.*/gtk-theme-name=oomox-Pywal/' ~/.config/gtk-3.0/settings.ini
@@ -37,7 +28,7 @@ sleep 1
 killall xsettingsd
 
 # pywal change theme
-# wal --theme PywalAux
+wal --theme SetPywal
 ~/.config/bspwm/colors.sh
 
 # walogram (telegram theme)

@@ -20,6 +20,7 @@ sed -i '3s/.*/gtk-font-name="Hurmit Nerd Font Light 9"/' ~/.gtkrc.mine
 sed -i '4s/.*/icon_theme=oomox-Dracula/' ~/.config/qt6ct/qt6ct.conf
 sed -i '4s/.*/icon_theme=oomox-Dracula/' ~/.config/qt5ct/qt5ct.conf
 
+sleep 1
 # Reload GTK theme
 xsettingsd &
 sleep 1
@@ -39,5 +40,6 @@ echo "cd "$(xdg-user-dir PICTURES)" && nitrogen --random --set-scaled Wallpapers
 # ly Display Manager colors
 cp ~/.cache/wal/ly.service /lib/systemd/system/ly.service
 
-# neovim pywal theme
-#cp ~/.cache/wal/NvchadWal.lua ~/.local/share/nvim/lazy/base46/lua/base46/themes/pywal.lua
+
+# Pywalfox
+pywalfox update
