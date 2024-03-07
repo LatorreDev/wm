@@ -123,6 +123,7 @@ pactl set-sink-volume @DEFAULT_SINK@ 100%
 git clone https://github.com/wbthomason/packer.nvim ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 #sleep 1
 #nvim -c ':call coc#util#install()' -c ':q'
+#npm install coc
 
 # detects Dual Boot in grub
 echo "GRUB_DISABLE_OS_PROBER=false" | sudo tee -a /etc/default/grub
