@@ -21,6 +21,8 @@ wal_wrapper() {
                 ~/.GTK-configs/NordRed.sh;;
             "Pywal")
                 ~/.GTK-configs/Pywal.sh;;
+            "SetPywal")
+                ~/.GTK-configs/SetPywal.sh;;
             *)
                 if [[ "$tema" == *"+" ]]; then
                     echo "Tema no reconocido: $tema_base"
