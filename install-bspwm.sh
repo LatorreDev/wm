@@ -1,3 +1,5 @@
+dir_actual=$(pwd)
+
 # Download programs
 sudo pacman -S noto-fonts
 sudo pacman -S --needed $(cat programs.txt)
@@ -41,8 +43,7 @@ cp aliases ~/.aliases
 
 # Walogram (Telegram theme)
 cd ~/ && git clone https://codeberg.org/thirtysixpw/walogram
-sleep 2
-cp constantsTelegram.tdesktop-theme ~/walogram/constants.tdesktop-theme
+cp "$dir_actual/constantsTelegram.tdesktop-theme" ~/walogram/constants.tdesktop-theme
 cd ~/walogram/ && sudo make install
 
 # Download Pywal
