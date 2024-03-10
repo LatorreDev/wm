@@ -58,6 +58,7 @@ python-gobject
 python-pip
 qt5ct
 qt6ct
+ripgrep
 ristretto
 rofi
 rxvt-unicode
