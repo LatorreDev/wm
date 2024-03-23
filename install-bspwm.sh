@@ -50,6 +50,11 @@ cd ~/walogram/ && sudo make install
 pip install PyGObject --break-system-packages
 pip install pywal --break-system-packages
 
+# Download Pywalfox
+pip install pywalfox --break-system-packages
+pywalfox install
+#Download https://addons.mozilla.org/en-US/firefox/addon/pywalfox/
+
 # Path
 echo '' >> ~/.bashrc
 echo 'export VISUAL="${EDITOR}"' >> ~/.bashrc
