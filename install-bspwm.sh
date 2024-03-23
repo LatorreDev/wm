@@ -134,3 +134,6 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 # ➜  ~ sudo visudo
 # visudo: no editor found (editor path = /usr/bin/vi)
 sudo ln -s $(which nvim) /usr/bin/vi
+
+# nitrogen-pywal execute
+ln -s ~/.config/bspwm/nitrogen-pywal.sh ~/.local/bin/nitrogen-pywal.sh
