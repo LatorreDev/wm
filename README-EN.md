@@ -9,7 +9,9 @@ This repository contains my customized configuration for the BSPWM window manage
 - Rofi
 - Neovim (a theme is generated from Pywal but the configuration is entirely from Nvchad)
 - Ly Display Manager
-- GTK - OOMOX
+- GTK [(oomox - themix-gui)](https://github.com/themix-project/themix-gui)
+- Telegram [(walogram)](https://codeberg.org/thirtysixpw/walogram)
+- nitrogen [(WAL-theme-previewer-for-Nitrogen)](https://github.com/hallgat89/WAL-theme-previewer-for-Nitrogen)
 
 ## Installation
 
