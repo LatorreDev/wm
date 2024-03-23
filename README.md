@@ -11,8 +11,9 @@ Este repositorio contiene mi configuración personalizada para el gestor de vent
 - Rofi
 - Neovim
 - Ly Display Manager
-- GTK - OOMOX
+- GTK [(oomox - themix-gui)](https://github.com/themix-project/themix-gui)
 - Telegram [(walogram)](https://codeberg.org/thirtysixpw/walogram)
+- nitrogen [(WAL-theme-previewer-for-Nitrogen)](https://github.com/hallgat89/WAL-theme-previewer-for-Nitrogen)
 
 ## Instalación
 
