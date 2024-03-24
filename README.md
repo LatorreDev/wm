@@ -60,6 +60,7 @@ Puedes elegir entre los siguientes temas ejecutando cualquiera de las siguientes
   nitrogen-pywal.sh
   ```
 https://github.com/Mike-18awq/dotfiles/assets/137745753/0a705b4b-59a6-450f-a57a-af8ddc685c0d
+
 - Catppuccin:
 
   ```bash
