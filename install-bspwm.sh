@@ -55,6 +55,9 @@ pip install pywalfox --break-system-packages
 pywalfox install
 #Download https://addons.mozilla.org/en-US/firefox/addon/pywalfox/
 
+# nitrogen-pywal execute
+ln -s ~/.config/bspwm/nitrogen-pywal.sh ~/.local/bin/nitrogen-pywal.sh
+
 # Path
 echo '' >> ~/.bashrc
 echo 'export VISUAL="${EDITOR}"' >> ~/.bashrc
@@ -139,6 +142,3 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 # ➜  ~ sudo visudo
 # visudo: no editor found (editor path = /usr/bin/vi)
 sudo ln -s $(which nvim) /usr/bin/vi
-
-# nitrogen-pywal execute
-ln -s ~/.config/bspwm/nitrogen-pywal.sh ~/.local/bin/nitrogen-pywal.sh
