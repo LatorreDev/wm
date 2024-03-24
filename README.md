@@ -54,7 +54,7 @@ Puedes elegir entre los siguientes temas ejecutando cualquiera de las siguientes
   ```bash
   wal --set Pywal
   ```
-  #### También puedes selecionar un tema pywal escojiendo una imagen desde nitrogen [Créditos](https://github.com/hallgat89/WAL-theme-previewer-for-Nitrogen). Solo tienes que ejecutar esto desde la terminal:
+  ##### También puedes selecionar un tema pywal escojiendo una imagen desde nitrogen [Créditos](https://github.com/hallgat89/WAL-theme-previewer-for-Nitrogen). Solo tienes que ejecutar esto desde la terminal:
   ```bash
   nitrogen-pywal.sh
   ```
