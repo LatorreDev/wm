@@ -56,7 +56,9 @@ You can choose from the following themes by executing any of the following lines
   ```bash
   nitrogen-pywal.sh
   ```
-https://github.com/Mike-18awq/dotfiles/assets/137745753/0a705b4b-59a6-450f-a57a-af8ddc685c0d
+
+https://github.com/Mike-18awq/dotfiles/assets/137745753/6ec07eda-2322-4af6-9cb8-e7b4fa645106
+
 
 - Catppuccin:
 
