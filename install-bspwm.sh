@@ -142,3 +142,6 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 # ➜  ~ sudo visudo
 # visudo: no editor found (editor path = /usr/bin/vi)
 sudo ln -s $(which nvim) /usr/bin/vi
+
+# emacs
+#cp -f emacs-config/init.el ~/.emacs.d/
