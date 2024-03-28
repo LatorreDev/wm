@@ -164,4 +164,4 @@ super + a
   flameshot gui
 
 super + e
-  codium
+    alacritty -e nvim
