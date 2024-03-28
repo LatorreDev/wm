@@ -1,3 +1,6 @@
+# Wallpaper with pywal
+#inkscape --export-filename=Rick2.png --export-area-drawing ~/.cache/wal/Rick2-pywal.svg
+
 killall copyq
 killall flameshot
 killall dunst
