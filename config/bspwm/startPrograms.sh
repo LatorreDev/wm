@@ -24,6 +24,7 @@ xsetroot -cursor_name left_ptr
 
 # nitrogen
 nitrogen --restore &
+cd $HOME/.config/bspwm/ && ./nitrogen.sh &
 # cd $HOME/.config/bspwm/ && ./wallpaper.sh &
 
 # Notifications
