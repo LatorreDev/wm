@@ -1,15 +1,1 @@
-bspwmrc: la configuracion minima de bspwm y que llama a los programas de iniciacion (startPrograms.sh)
-colors.sh: colores de bspwm (solo son 4 lineas)
-colorsGTK-Icons.sh: Iconos y colores GTK generados con oomox (no llamado x ningun archivo, ejecutalo si quieres generar un tema con los colores que tienes en pywal actualmente)
-colorsGTK-Icons.sh: Puedes editar lo que dice si los iconos o el tema no te gusta:
-    [User@Arch ~]$ cd .oomox/
-    [User@Arch .oomox]$ find . | grep -i change_color.sh
-    ./plugins/theme_oomox/change_color.sh
-    ./plugins/theme_materia/materia-theme/change_color.sh
-    ./plugins/icons_suruplus_aspromauros/change_color.sh
-    ./plugins/icons_suruplus/change_color.sh
-    ./plugins/theme_arc/arc-theme/change_color.sh
-    ./plugins/icons_archdroid/archdroid-icon-theme/change_color.sh
-    ./plugins/icons_gnomecolors/gnome-colors-icon-theme/change_color.sh
-    ./plugins/icons_papirus/change_color.sh
-    ./plugins/icons_numix/change_color.sh
+
