@@ -1,5 +1,7 @@
 # Wallpaper with pywal
-#inkscape --export-filename=Rick2.png --export-area-drawing ~/.cache/wal/Rick2-pywal.svg
+rm -f ~/.config/nitrogen/bg-saved.cfg
+ln -s ~/.cache/wal/bg-saved.cfg ~/.config/nitrogen/bg-saved.cfg
+cd ~/.config/bspwm/ && inkscape --export-filename=Rick2.png --export-area-drawing ~/.cache/wal/Rick2-pywal.svg
 
 killall copyq
 killall flameshot
