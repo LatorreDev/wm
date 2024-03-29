@@ -185,6 +185,10 @@ https://github.com/Mike-18awq/dotfiles/assets/137745753/a42499cc-fa5e-4faa-b06b-
     <td><kbd>super</kbd> + <kbd>a</kbd></td>
     <td>Flameshot</td>
   </tr>
+  <tr>
+    <td><kbd>super</kbd> + <kbd>shift</kbd> + <kbd>p</kbd></td>
+    <td>Hide/Show Polybar</td>
+  </tr>
 </table>
 
 
