@@ -8,25 +8,26 @@ sudo pacman -S --needed $(cat programs.txt)
 xdg-user-dirs-update
 
 # Backup Config directories
-mv ~/.config/alacritty{,.bak}
-mv ~/.config/bpytop{,.bak}
-mv ~/.config/bspwm{,.bak}
-mv ~/.config/copyq{,.bak}
-mv ~/.config/dunst{,.bak}
-mv ~/.config/flameshot{,.bak}
-mv ~/.config/gtk-2.0{,.bak}
-mv ~/.config/gtk-3.0{,.bak}
-mv ~/.config/mpd{,.bak}
-mv ~/.config/ncmpcpp{,.bak}
-mv ~/.config/neofetch{,.bak}
-mv ~/.config/nitrogen{,.bak}
-mv ~/.config/nvim{,.bak}
-mv ~/.config/polybar{,.bak}
-mv ~/.config/qt5ct{,.bak}
-mv ~/.config/qt6ct{,.bak}
-mv ~/.config/rofi{,.bak}
-mv ~/.config/sxhkd{,.bak}
-mv ~/.config/wal{,.bak}
+mkdir -p ~/.config/configs_backups/
+mv ~/.config/alacritty{,} ~/.config/configs_backups/ 
+mv ~/.config/bpytop{,} ~/.config/configs_backups/ 
+mv ~/.config/bspwm{,} ~/.config/configs_backups/ 
+mv ~/.config/copyq{,} ~/.config/configs_backups/ 
+mv ~/.config/dunst{,} ~/.config/configs_backups/ 
+mv ~/.config/flameshot{,} ~/.config/configs_backups/ 
+mv ~/.config/gtk-2.0{,} ~/.config/configs_backups/ 
+mv ~/.config/gtk-3.0{,} ~/.config/configs_backups/ 
+mv ~/.config/mpd{,} ~/.config/configs_backups/ 
+mv ~/.config/ncmpcpp{,} ~/.config/configs_backups/ 
+mv ~/.config/neofetch{,} ~/.config/configs_backups/ 
+mv ~/.config/nitrogen{,} ~/.config/configs_backups/ 
+mv ~/.config/nvim{,} ~/.config/configs_backups/ 
+mv ~/.config/polybar{,} ~/.config/configs_backups/ 
+mv ~/.config/qt5ct{,} ~/.config/configs_backups/ 
+mv ~/.config/qt6ct{,} ~/.config/configs_backups/ 
+mv ~/.config/rofi{,} ~/.config/configs_backups/ 
+mv ~/.config/sxhkd{,} ~/.config/configs_backups/ 
+mv ~/.config/wal{,} ~/.config/configs_backups/
 
 # Create directories
 mkdir -p ~/.config/ && cp -r config/* ~/.config/
