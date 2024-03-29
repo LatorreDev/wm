@@ -145,3 +145,6 @@ sudo ln -s $(which nvim) /usr/bin/vi
 
 # emacs
 #cp -f emacs-config/init.el ~/.emacs.d/
+
+# wallpapers dir for nitrogen
+echo "dirs=/home/$(whoami)/Imágenes/Wallpapers;" >> ~/.config/nitrogen/nitrogen.cfg
