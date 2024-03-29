@@ -145,6 +145,3 @@ sudo ln -s $(which nvim) /usr/bin/vi
 
 # emacs
 #cp -f emacs-config/init.el ~/.emacs.d/
-
-# nitrogen wallpaper with pywal
-#mkdir -p ~/.config/nitrogen/ | ln -s ~/.cache/wal/bg-saved.cfg ~/.config/nitrogen/bg-saved.cfg
