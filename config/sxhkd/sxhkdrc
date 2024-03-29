@@ -165,3 +165,6 @@ super + a
 
 super + e
     alacritty -e nvim
+
+super + shift + p
+   ~/.config/polybar/hideShow.sh
