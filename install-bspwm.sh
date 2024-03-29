@@ -129,7 +129,7 @@ pactl set-sink-volume @DEFAULT_SINK@ 100%
 ~/.GTK-configs/Nord.sh
 
 # neovim
-git clone https://github.com/wbthomason/packer.nvim ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+#git clone https://github.com/wbthomason/packer.nvim ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 #sleep 1
 #nvim -c ':call coc#util#install()' -c ':q'
 #npm install coc
