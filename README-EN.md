@@ -180,6 +180,10 @@ https://github.com/Mike-18awq/dotfiles/assets/137745753/6ec07eda-2322-4af6-9cb8-
     <td><kbd>super</kbd> + <kbd>a</kbd></td>
     <td>Open Flameshot</td>
   </tr>
+  <tr>
+    <td><kbd>super</kbd> + <kbd>shift</kbd> + <kbd>p</kbd></td>
+    <td>Hide/Show Polybar</td>
+  </tr>
 </table>
 
 
