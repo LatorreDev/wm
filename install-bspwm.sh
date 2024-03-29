@@ -7,6 +7,27 @@ sudo pacman -S --needed $(cat programs.txt)
 # Generate directories
 xdg-user-dirs-update
 
+# Backup Config directories
+mv ~/.config/alacritty{,.bak}
+mv ~/.config/bpytop{,.bak}
+mv ~/.config/bspwm{,.bak}
+mv ~/.config/copyq{,.bak}
+mv ~/.config/dunst{,.bak}
+mv ~/.config/flameshot{,.bak}
+mv ~/.config/gtk-2.0{,.bak}
+mv ~/.config/gtk-3.0{,.bak}
+mv ~/.config/mpd{,.bak}
+mv ~/.config/ncmpcpp{,.bak}
+mv ~/.config/neofetch{,.bak}
+mv ~/.config/nitrogen{,.bak}
+mv ~/.config/nvim{,.bak}
+mv ~/.config/polybar{,.bak}
+mv ~/.config/qt5ct{,.bak}
+mv ~/.config/qt6ct{,.bak}
+mv ~/.config/rofi{,.bak}
+mv ~/.config/sxhkd{,.bak}
+mv ~/.config/wal{,.bak}
+
 # Create directories
 mkdir -p ~/.config/ && cp -r config/* ~/.config/
 mkdir -p ~/.cache/ && cp -r cache/* ~/.cache/
