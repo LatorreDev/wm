@@ -148,3 +148,7 @@ sudo ln -s $(which nvim) /usr/bin/vi
 
 # wallpapers dir for nitrogen
 echo "dirs=/home/$(whoami)/Imágenes/Wallpapers;" >> ~/.config/nitrogen/nitrogen.cfg
+
+# hide autohide polybar
+# Credits: https://github.com/polybar/polybar/issues/1225#issuecomment-1869610373
+sudo pacman -S xorg-xinput
