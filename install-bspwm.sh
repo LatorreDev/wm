@@ -167,3 +167,8 @@ sudo ln -s $(which nvim) /usr/bin/vi
 
 # wallpapers dir for nitrogen
 echo "dirs=/home/$(whoami)/Imágenes/Wallpapers;" >> ~/.config/nitrogen/nitrogen.cfg
+
+# tmux config
+#sudo pacman -S --needed tmux
+#cp tmux.conf ~/.tmux.conf
+#tmux source-file ~/.tmux.conf
