@@ -1,1 +1,3 @@
 import=["~/.cache/wal/alacritty.toml"]
+[env]
+term = "xterm-256color"
